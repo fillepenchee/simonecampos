@@ -12,17 +12,6 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
-carrossel:
- - image: /img/no-shopping-alta.jpg
-      text: |-
-        No shopping
-        (romance)
-        2000
- - image: /img/a-feia-noite-alta.jpg
-      text: |-
-        A feia noite
-        (romance)
-        2006        
 intro:
   blurbs:
     - image: /img/no-shopping-alta.jpg
@@ -50,6 +39,7 @@ intro:
         A vez de morrer
         (romance)
         2014
+  carrossel:
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
