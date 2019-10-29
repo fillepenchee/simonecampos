@@ -68,7 +68,7 @@ collections:
         label: "Carrossel"
         name: "carrossel"
         widget: "list"
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: Image, name: image, widget: image}
-            - {label: Subheading, name: subheading, widget: string} 
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Subheading, name: subheading, widget: string} 
