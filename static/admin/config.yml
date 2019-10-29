@@ -66,7 +66,31 @@ collections:
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
 
       - name: "carrossel"
-        label: "Carousel"
+        label: "Carrossel"
         widget: "list"
-        default: ["news"]
-        field: {label: Image, name: image, widget: image}
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Subheading, name: subheading, widget: string}
+        
+      - label: "Home Section"
+        name: "sections"
+        widget: "list"
+        types:
+         - label: "Carousel"
+           name: "carousel"
+           widget: object
+           fields:
+         - {label: Header, name: header, widget: string, default: "Image Gallery"}
+         - {label: Template, name: template, widget: string, default: "carousel.html"}
+         - label: Images
+            name: images
+            widget: list
+            field: {label: Image, name: image, widget: image}
+         - label: "Spotlight"
+           name: "spotlight"
+           widget: object
+           fields:
+             - {label: Header, name: header, widget: string, default: "Spotlight"}
+             - {label: Template, name: template, widget: string, default: "spotlight.html"}
+             - {label: Text, name: text, widget: text, default: "Hello World"}
