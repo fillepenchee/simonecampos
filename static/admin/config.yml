@@ -68,8 +68,8 @@ collections:
       - name: "carrossel"
         label: "Carrossel"
         widget: "list"
+        file: "src/pages/index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: 'File', name: 'file', widget: 'file'}      
+          - {label: Subheading, name: subheading, widget: string}  
